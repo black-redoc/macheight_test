@@ -15,3 +15,6 @@ cython_debug/
 
 # IDE stuffs
 .vscode
+
+# Coverage
+.coverage

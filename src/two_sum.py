@@ -6,7 +6,7 @@ def two_sum(
     num_list: List[int], expected_result: int
 ) -> Generator[tuple[int, int], None, None]:
     """
-    two_sum function to search into a list of numbwers and if the result of addition
+    two_sum function to search into a list of numbers and if the result of addition
     operation between two different list items is equals to expected_result, then
     those numbers will be yield from a generator:
 
