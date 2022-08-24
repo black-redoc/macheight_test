@@ -1,6 +1,6 @@
 # MechEight test
 
-This app is developed to pass the challenge from MechEight and achieve a position in its headquarters. The functionality of this is read a list of numbers and a number from the command line and determine if the sum of two diffetent numbers inside of the list is equals to the expected result, then this will print out the pair values separated by a colon.
+This app is developed to pass the challenge from MechEight and achieve a position in its headquarters. The functionality of this is read a list of numbers and a number from the command line and determine if the sum of two different numbers inside of the list is equals to the expected result, then this will print out the pair values separated by a colon.
 
 Install dependencies
 
