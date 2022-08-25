@@ -1,4 +1,4 @@
-# MechEight test
+# MachEight test
 
 This app is developed to pass the challenge from MechEight and achieve a position in its headquarters. The functionality of this is read a list of numbers and a number from the command line and determine if the sum of two different numbers inside of the list is equals to the expected result, then this will print out the pair values separated by a colon.
 
@@ -28,7 +28,7 @@ python -c "import random;print(','.join([str(random.randint(0,100)) for x in ran
 # paste that result into the execution
 time python src/app.py <list_of_numbers> 12
 # with 1000 numbers a I found this execution results
-# python src/app.py  12  0,07s user 0,02s system 96% cpu 0,086 total
+# python src/app.py  12  0,03s user 0,01s system 75% cpu 0,054 total
 ```
 
 Coverage
@@ -39,10 +39,10 @@ coverage report -m
 Name                  Stmts   Miss  Cover   Missing
 ---------------------------------------------------
 src/__init__.py           0      0   100%
-src/test_two_sum.py      10      0   100%
-src/test_utils.py         7      0   100%
-src/two_sum.py            6      0   100%
+src/test_two_sum.py      21      0   100%
+src/test_utils.py        14      0   100%
+src/two_sum.py            8      0   100%
 src/utils.py              7      0   100%
 ---------------------------------------------------
-TOTAL                    30      0   100%
+TOTAL                    50      0   100%
 ```
